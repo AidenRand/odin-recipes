@@ -1,0 +1,50 @@
+* {
+    margin: 2%;
+    padding: 0;
+
+}
+
+a img {
+    border: 3px solid blue;
+    border-radius: 40px ;
+    
+}
+
+.soup {
+    float: left;
+    padding-left: 7%;   
+}
+
+.lasagna {
+    float: left; 
+    padding-left: 7%;
+}
+.chunky {
+    float: right;
+    padding-right: 7%;
+}
+
+.pizza {
+    float: right;
+    padding-right: 7%;
+}
+
+.soup_p {
+    float: left;
+    position: relative; right: 350px; bottom: 50px;
+} 
+
+.chunky_p {
+    float: right;
+    position: relative;left: 405px; bottom: 140px;
+}
+
+.lasagna_p {
+    float: left;
+    position: relative; right: 370px; top: 270px;
+}
+
+.pizza_p {
+    float: right;
+    position: relative; left: 421px; top: 183px;
+}
