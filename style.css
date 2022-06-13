@@ -4,9 +4,22 @@
 
 }
 
+
+body {
+background-color: rgb(190, 169, 144);
+}
+
+h1 {
+    text-align: center;
+    position: relative; right: 23px;
+    font-size: 6em;
+    font-family: 'Cute Font', cursive; 
+    color: beige;
+}
+
 a img {
-    border: 3px solid blue;
-    border-radius: 40px ;
+    border: 3px solid rgb(201, 193, 170);
+    border-radius: 30px ;
     
 }
 
@@ -15,36 +28,70 @@ a img {
     padding-left: 7%;   
 }
 
+.soup:hover {
+   transform:scale(0.96) ;
+   opacity: .8;
+}
+
 .lasagna {
     float: left; 
     padding-left: 7%;
 }
+
+.lasagna:hover {
+    transform:scale(.96) ;
+    opacity: .8;
+    
+    
+ }
 .chunky {
     float: right;
     padding-right: 7%;
 }
+
+.chunky:hover {
+    transform:scale(0.96) ;
+    opacity: .8;
+ }
 
 .pizza {
     float: right;
     padding-right: 7%;
 }
 
+.pizza:hover {
+    transform:scale(0.96) ;
+    opacity: .8;
+ }
+
 .soup_p {
     float: left;
-    position: relative; right: 350px; bottom: 50px;
+    position: relative; right: 400px; bottom: 60px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(233, 224, 212);
+    font-size: 2em;
 } 
 
 .chunky_p {
     float: right;
-    position: relative;left: 405px; bottom: 140px;
-}
+    position: relative;left: 470px; bottom:555px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(233, 224, 212);
+    font-size: 2em;
+}   
 
 .lasagna_p {
     float: left;
-    position: relative; right: 370px; top: 270px;
+    position: relative; left: 270px; bottom: 45px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(233, 224, 212);
+    font-size: 2em;
 }
 
 .pizza_p {
     float: right;
-    position: relative; left: 421px; top: 183px;
+    position: relative; left: 785px; bottom: 55px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(233, 224, 212);
+    font-size: 2em;
 }
